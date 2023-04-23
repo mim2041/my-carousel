@@ -9,14 +9,7 @@
 }
 #text{
     
-    animation: gradient-slide 5s linear infinite;
-}
-@keyframes slide-in {
-    0% {
-        background-position: left;
-        opacity: 0;
-    }
-    100% {
-        background-position: right;
-    }
+    transition: color 1s linear;
+    transform: scaleX(100%);
+    transform-origin: left, right;
 }

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Pacifico&family=Poppins:wght@500&display=swap');
+
+.container{
+    margin: 50px;
+    /* line-height: 15px; */
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    
+}
+#text{
+    
+    animation: gradient-slide 5s linear infinite;
+}
+@keyframes slide-in {
+    0% {
+        background-position: left;
+        opacity: 0;
+    }
+    100% {
+        background-position: right;
+    }
+}
